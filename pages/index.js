@@ -27,8 +27,7 @@ export default function Home() {
             <Col xs={12}>
               <h2>Colabore</h2>
               <p>
-                Ajude dezenas famílias doando qualquer quantia através dos links
-                abaixo:
+                Ajude dezenas de famílias doando qualquer quantia através dos links abaixo:
               </p>
             </Col>
             <Col xs={12} md={4} className='mb-4'>
@@ -36,8 +35,8 @@ export default function Home() {
                 <Image
                   src={pix}
                   alt="Chave Pix dos Anjos Solidários"
-                  width={200}
-                  height={200}
+                  width={150}
+                  height={150}
                 />
                 <div>
                   <h2>Chave Pix</h2>
@@ -103,7 +102,7 @@ export default function Home() {
                 Somos uma ONG formada por mulheres da cidade de Araci/Bahia que
                 tem o objetivo de ajudar pessoas doentes e acamadas. Através de
                 doações e colaborações conseguimos fornecer fraldas geriátricas,
-                materiais de higiene, pomada e remédios para diversas famílias
+                materiais de higiene, pomadas e remédios para diversas famílias
                 carentes da nossa cidade.
               </p>
               <h2>Como ajudar?</h2>
@@ -112,17 +111,17 @@ export default function Home() {
                 (48.796.055/0001-86) e doações de fraldas geriátricas em nossos
                 pontos de coleta abaixo: <br />
                 <br />
-                • Av. Edvaldo Paraíso, 347 (sede provisória)
+                • Av. Edvaldo Paraíso, 347 (sede provisória) - <Link href='https://goo.gl/maps/f3HnBeUNqQyi3ed5A' rel="noopener noreferrer" target="_blank">Ver no mapa</Link>
                 <br />
-                • Farma Center
+                • Farma Center - <Link href='https://goo.gl/maps/Q1gm8t1KwsnZ6GWf8' rel="noopener noreferrer" target="_blank">Ver no mapa</Link>
                 <br />
-                • Farmácia Aras (Sta. Luz) <br />
-                • Farmácia Popular <br />
-                • Farmácia Mercês
-                <br />
-                • Farmácia do Paulo Farmácia Santana (Sta. Luz) <br />
-                • Supermercado Compre Fácil <br />• Supermercado Santiago (Maria
-                de Zé Valdo)
+                • Farmácia Aras (Sta. Luz) - <Link href='https://goo.gl/maps/kCDwe3vvTJB65Scn6' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Farmácia Popular - <Link href='https://www.google.com/search?q=farmacia%20popular%20araci&oq=farmacia+po&aqs=chrome.0.69i59j69i57j0i13i131i433i512j0i13i512l7.1575j0j9&client=ubuntu&sourceid=chrome&ie=UTF-8&hs=D1t&tbs=lf:1,lf_ui:3&tbm=lcl&sxsrf=AJOqlzVJsil_4_6TWLU08nib6lDfqAlRXQ:1677790186518&rflfq=1&num=10&rldimm=5066972791820764303&lqi=ChZmYXJtYWNpYSBwb3B1bGFyIGFyYWNpSPa_gaebroCACFoiEAAQARgAGAEYAiIWZmFybWFjaWEgcG9wdWxhciBhcmFjaZIBCWRydWdzdG9yZaoBRAoJL20vMDFyZnBzEAEaHxABIhuArGIbSWEROy6Ia0dAinknWSM9iuSg5oY1qFUqFCIQZmFybWFjaWEgcG9wdWxhcigM&ved=2ahUKEwins8zAj779AhVXmZUCHUXcCE8QvS56BAgQEAE&sa=X&rlst=f#rlfi=hd:;si:5066972791820764303,l,ChZmYXJtYWNpYSBwb3B1bGFyIGFyYWNpSPa_gaebroCACFoiEAAQARgAGAEYAiIWZmFybWFjaWEgcG9wdWxhciBhcmFjaZIBCWRydWdzdG9yZaoBRAoJL20vMDFyZnBzEAEaHxABIhuArGIbSWEROy6Ia0dAinknWSM9iuSg5oY1qFUqFCIQZmFybWFjaWEgcG9wdWxhcigM;mv:[[-11.3250517,-38.958396],[-11.3381332,-38.9647992]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:3' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Farmácia Mercês - <Link href='https://goo.gl/maps/Nm9uxg9Qw7RCwN2D7' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Farmácia do Paulo - <Link href='https://goo.gl/maps/H8zzbZfuka7bji4w9' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Farmácia Santana (Sta. Luz) - <Link href='https://goo.gl/maps/tU9EXAzwQWtpgq158' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Supermercado Compre Fácil - <Link href='https://goo.gl/maps/THKPosndmxt1KWg28' rel="noopener noreferrer" target="_blank">Ver no mapa</Link> <br />
+                • Supermercado Santiago (Maria de Zé Valdo) - <Link href='https://goo.gl/maps/WKz3hzmfJPJ1LAGy6' rel="noopener noreferrer" target="_blank">Ver no mapa</Link>
               </p>
             </Col>
           </Row>
@@ -131,7 +130,7 @@ export default function Home() {
           <Row>
             <Col xs={12}>
               <h2>Anjos Solidários na Mídia</h2>
-              <p>Algumas matérias que fomos destaques</p>
+              <p>Algumas matérias em que fomos destaques</p>
             </Col>
             <Col xs={12} md={4} className={styles.article}>
               <Link
