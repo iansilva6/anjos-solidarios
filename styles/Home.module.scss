@@ -1,0 +1,55 @@
+.main {
+  min-height: 100vh;
+  padding: 75px 0px;
+  background: #ececec;
+}
+
+.image__container {
+  width: 100%;
+  > div {
+    position: unset !important;
+  }
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+.about {
+  h2 {
+    margin-top: 30px;
+  }
+}
+
+.article {
+  margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .text {
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 20px;
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 15px;
+      color: #999;
+    }
+  }
+}
+
+.donate {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  gap: 20px;
+}
