@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Head>
         <title>Anjos Solidários - Araci/Bahia</title>
-        <meta name="description" content="Somos uma ONG sem fins lucrativos com o objetivo de ajudar pessoas doentes e acamadas na cidade de Araci Bahia." />
+        <meta name="description" content="A ONG Anjos Solidários é uma organização formada por mulheres comprometidas e apaixonadas que estão fazendo a diferença na cidade de Araci, Bahia. Nosso objetivo é ajudar as famílias carentes da região, fornecendo fraldas geriátricas, materiais de higiene, pomadas e remédios essenciais. Através de nossas campanhas de arrecadação, buscamos aliviar as dificuldades enfrentadas por idosos e pessoas em situação de vulnerabilidade, levando conforto e dignidade a cada família que auxiliamos." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,6 +27,7 @@ export default function Home() {
             <Col xs={12}>
               <h2>Colabore</h2>
               <p>
+                Junte-se aos Anjos Solidários e faça parte dessa missão de amor e cuidado.<br/> 
                 Ajude dezenas de famílias doando qualquer quantia através dos links abaixo:
               </p>
             </Col>
@@ -99,11 +100,11 @@ export default function Home() {
             <Col xs={12} md={7} className={styles.about}>
               <h2>Quem somos</h2>
               <p>
-                Somos uma ONG formada por mulheres da cidade de Araci/Bahia que
-                tem o objetivo de ajudar pessoas doentes e acamadas. Através de
-                doações e colaborações conseguimos fornecer fraldas geriátricas,
-                materiais de higiene, pomadas e remédios para diversas famílias
-                carentes da nossa cidade.
+                A ONG Anjos Solidários é uma organização formada por mulheres comprometidas e apaixonadas 
+                que estão fazendo a diferença na cidade de Araci, Bahia. Nosso objetivo é ajudar as famílias 
+                carentes da região, fornecendo fraldas geriátricas, materiais de higiene, pomadas e remédios essenciais. 
+                Através de nossas campanhas de arrecadação, buscamos aliviar as dificuldades enfrentadas por idosos e 
+                pessoas em situação de vulnerabilidade, levando conforto e dignidade a cada família que auxiliamos.
               </p>
               <h2>Como ajudar?</h2>
               <p>
@@ -176,6 +177,23 @@ export default function Home() {
                   <h4>Site: A Voz do Campo</h4>
                 </div>
               </Link>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="mt-5">
+          <Row>
+            <Col xs={12}>
+              <h2>Vídeos</h2>
+              <p>Depoimentos de famílias que são amparadas pelos Anjos Solidários</p>
+            </Col>
+            <Col xs={12} md={4} className={styles.article}>
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/afKvPdusWI4" title="Depoimento 01 - Anjos Solidários Araci/BA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </Col>
+            <Col xs={12} md={4} className={styles.article}>
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/oVPCCgcuvlA" title="Depoimento 02 - Anjos Solidários Araci/BA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </Col>
+            <Col xs={12} md={4} className={styles.article}>
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/bxnIzJJsHG4" title="Depoimento 03 - Anjos Solidários Araci/BA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </Col>
           </Row>
         </Container>
