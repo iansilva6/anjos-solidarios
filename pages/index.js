@@ -30,6 +30,7 @@ export default function Home() {
                 Junte-se aos Anjos Solidários e faça parte dessa missão de amor e cuidado.<br/> 
                 Ajude dezenas de famílias doando qualquer quantia através dos links abaixo:
               </p>
+
             </Col>
             <Col xs={12} md={4} className='mb-4'>
               <div className={styles.donate}>
@@ -82,6 +83,14 @@ export default function Home() {
                   </div>
                 </div>
               </Link>
+            </Col>
+            <Col xs={12}>
+              <h2>⚠️ Atenção a falsas arrecadações</h2>
+              <p>
+                <b>Os Anjos Solidários não realizam ou autorizam vendas em seu nome.</b><br/> Contribua somente pelos canais oficiais, dados bancários deste site ou eventos promovidos pela ONG.<br/> 
+                <b>Na dúvida, entre em contato conosco antes de contribuir.</b>
+              </p>
+              
             </Col>
           </Row>
         </Container>

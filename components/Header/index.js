@@ -9,6 +9,9 @@ const myLoader = ({ src, width, quality }) => {
 export default function Header() {
   return (
     <header className={styles.header}>
+      <p>
+        ⚠️ <b>Atenção:</b> Os Anjos Solidários não realizam vendas. Não compre produtos de pessoas que aleguem estar arrecadando em nome da ONG.
+      </p>
       <Image
         src={logo}
         alt="Picture of the author"
